@@ -16,7 +16,7 @@
        url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
-} 
+}
 /* Конец Подключение шрифтов ----------------------------------------------------------+ */
 
 /* Корневой элемент страницы ----------------------------------------------------------+ */
@@ -197,7 +197,7 @@ body {
   text-transform: uppercase;
 }
 
-.container-content-main-connection {
+.box-content-main-con {
   padding: 25vw 6.3vw 14.7vw 6.3vw;
   background-color: #fafafa;
 }
@@ -206,7 +206,7 @@ body {
   display: flex;
 }
 
-.main-numder {
+.main-number {
   position: relative;
 
   display: block;
@@ -224,7 +224,7 @@ body {
 }
 
   /* Псевдоэлемент-подчеркивание номера connection и collaboration */
-.main-numder::after {
+.main-number::after {
   content: "";
   
   position: absolute;
@@ -266,17 +266,17 @@ body {
   font-weight: 400;
 }
 
-.container-content-main-collaboration {
+.box-content-main-col {
   padding: 17.8vw 6.3vw 14.7vw 6.3vw;
   background-color: #f5f4f9;
 }
 
-.container-content-main-growth-athlets {
+.box-content-main-gr-at {
   padding: 17.8vw 6.3vw 14.7vw 6.3vw;
   background-color: #5e42b0;
 }
 
-.main-numder-growth-athlets {
+.main-number-growth-athlets {
   position: relative;
 
   display: block;
@@ -294,7 +294,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера growth athlets */
-.main-numder-growth-athlets::after {
+.main-number-growth-athlets::after {
   content: "";
   
   position: absolute;
@@ -338,12 +338,12 @@ body {
   display: none;
 }
 
-.container-content-main-growth-players {
+.box-content-main-gr-pl {
   padding: 17.8vw 6.3vw 14.7vw 6.3vw;
   background-color: #090c35;
 }
 
-.main-numder-growth-players {
+.main-number-gr-pl {
   position: relative;
 
   display: block;
@@ -361,7 +361,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера growth players */
-.main-numder-growth-players::after {
+.main-number-gr-pl::after {
   content: "";
   
   position: absolute;
@@ -378,7 +378,7 @@ body {
 }
 /* Конец Псевдоэлемент-подчеркивание номера growth players */
 
-.content-main-text-players {
+.content-main-text-pl {
   margin: 0;
 
   font-size: 4.5vw;
@@ -395,7 +395,7 @@ body {
   position: relative;
 }
 
-.box-numder {
+.box-number {
   position: absolute;
 
   bottom: -3.5%;
@@ -407,7 +407,7 @@ body {
   background-color: #5e42b0;
 }
 
-.numder-article {
+.number-article {
   display: block;
 
   margin: 0;
@@ -422,7 +422,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера статьи */
-.numder-article::after {
+.number-article::after {
   content: "";
   
   position: absolute;
@@ -584,7 +584,7 @@ body {
     justify-content: space-between;
   }
 
-  .container-content-main-connection {
+  .box-content-main-con {
     background-color: #ffffff;
   }
 }
@@ -669,11 +669,11 @@ body {
   font-size: 10.4vw;
 }
 
-.container-content-main-connection {
+.box-content-main-con {
   padding: 0 4.4vw 4.4vw 37.8vw;
 }
 
-.main-numder {
+.main-number {
   padding-top: 0.7vw;
   padding-right: 1.5vw;
   padding-bottom: 0.7vw;
@@ -683,7 +683,7 @@ body {
 }
 
   /* Псевдоэлемент-подчеркивание номера connection и collaboration */
-.main-numder::after {
+.main-number::after {
   width: 2.7vw;
   height: 0.5vw;
 }
@@ -704,15 +704,15 @@ body {
   line-height: 3.6vw;
 }
 
-.container-content-main-collaboration {
+.box-content-main-col {
   padding: 4.4vw 4.4vw 4.4vw 37.8vw;
 }
 
-.container-content-main-growth-athlets {
+.box-content-main-gr-at {
   padding: 4.4vw 4.4vw 4.4vw 37.8vw;
 }
 
-.main-numder-growth-athlets {
+.main-number-growth-athlets {
   padding-top: 0.7vw;
   padding-right: 1.5vw;
   padding-bottom: 0.7vw;
@@ -722,7 +722,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера growth athlets */
-.main-numder-growth-athlets::after {
+.main-number-growth-athlets::after {
   width: 2.7vw;
   height: 0.5vw;
 }
@@ -747,24 +747,24 @@ body {
   right: 0;
 }
 
-.container-title-main-players-tablet {
+.box-title-main-pl-tab {
   padding: 8vw 45vw 3.8vw 4.2vw;
 }
 
-.container-content-main-connection-players-tablet {
+.box-content-main-con-pl-tab {
   padding: 0 45vw 4.4vw 4.2vw;
   background-color: #ffffff;
 }
 
-.container-content-main-collaboration-players-tablet {
+.box-content-main-col-pl-tab {
   padding: 4.4vw 45vw 4.4vw 4.2vw;
 }
 
-.container-content-main-growth-players-tablet {
+.box-content-main-gr-pl-tab {
   padding: 4.4vw 45vw 4.4vw 4.2vw;
 }
 
-.main-numder-growth-players-tablet {
+.main-number-gr-pl-tab {
   padding-top: 0.7vw;
   padding-right: 1.5vw;
   padding-bottom: 0.7vw;
@@ -774,13 +774,13 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера growth players */
-.main-numder-growth-players-tablet::after {
+.main-number-gr-pl-tab::after {
   width: 2.7vw;
   height: 0.5vw;
 }
 /* Конец Псевдоэлемент-подчеркивание номера growth players */
 
-.content-main-text-players-tablet {
+.content-main-text-pl-tab {
   font-size: 2.05vw;
   letter-spacing: 0.12vw;
   line-height: 3.6vw;
@@ -789,7 +789,7 @@ body {
 /* Конец Основной контент страницы ----------------------------------------------------+ */
 
 /* Секция со статьями -----------------------------------------------------------------+ */
-.box-numder {
+.box-number {
   bottom: -4.5%;
   left: 4.5%;
 
@@ -797,7 +797,7 @@ body {
   height: 15.1vw;
 }
 
-.numder-article {
+.number-article {
   padding-top: 4.7vw;
 
   font-size: 3.13vw;
@@ -806,7 +806,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера статьи */
-.numder-article::after {
+.number-article::after {
   width: 3.5vw;
   height: 0.52vw;
  
@@ -973,11 +973,11 @@ body {
   font-size: 4.17vw;
 }
 
-.container-content-main-connection {
+.box-content-main-con {
   padding: 0 9vw 3vw 52.45vw;
 }
 
-.main-numder {
+.main-number {
   padding-top: 0.3vw;
   padding-right: 0.5vw;
   padding-bottom: 0.31vw;
@@ -987,7 +987,7 @@ body {
 }
 
   /* Псевдоэлемент-подчеркивание номера connection и collaboration */
-.main-numder::after {
+.main-number::after {
   width: 1.09vw;
   height: 0.26vw;
   
@@ -1011,15 +1011,15 @@ body {
   line-height: 1.46vw;
 }
 
-.container-content-main-collaboration {
+.box-content-main-col {
   padding: 3vw 9vw 3vw 52.45vw;
 }
 
-.container-content-main-growth-athlets {
+.box-content-main-gr-at {
   padding: 3vw 9vw 3vw 52.45vw;
 }
 
-.main-numder-growth-athlets {
+.main-number-growth-athlets {
   padding-top: 0.3vw;
   padding-right: 0.5vw;
   padding-bottom: 0.31vw;
@@ -1029,7 +1029,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера growth athlets */
-.main-numder-growth-athlets::after {
+.main-number-growth-athlets::after {
   width: 1.09vw;
   height: 0.26vw;
   
@@ -1057,23 +1057,23 @@ body {
   right: 7.7%;
 }
 
-.container-title-main-players-desktop {
+.box-title-main-pl-desk {
   padding: 4.7vw 50.7vw 4vw 9.5vw;
 }
 
-.container-content-main-connection-players-desktop {
+.box-content-main-con-pl-desk {
   padding: 0 50.7vw 3vw 9.5vw;
 }
 
-.container-content-main-collaboration-players-desktop {
+.box-content-main-col-pl-desk {
   padding: 3vw 50.7vw 3vw 9.5vw;
 }
 
-.container-content-main-growth-players-desktop {
+.box-content-main-gr-pl-desk {
   padding: 3vw 50.7vw 3vw 9.5vw;
 }
 
-.main-numder-growth-players-desktop {
+.main-number-gr-pl-desk {
   padding-top: 0.3vw;
   padding-right: 0.5vw;
   padding-bottom: 0.31vw;
@@ -1083,7 +1083,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера growth players */
-.main-numder-growth-players-desktop::after {
+.main-number-gr-pl-desk::after {
   width: 1.09vw;
   height: 0.26vw;
   
@@ -1092,7 +1092,7 @@ body {
 }
 /* Конец Псевдоэлемент-подчеркивание номера growth players */
 
-.content-main-text-players-desktop {
+.content-main-text-pl-desk {
   font-size: 1.04vw;
   letter-spacing: 0.05vw;
   line-height: 1.46vw;
@@ -1105,7 +1105,7 @@ body {
   display: flex;
 }
 
-.box-numder {
+.box-number {
   bottom: auto;
   left: auto;
   top: 9.5vw;
@@ -1115,12 +1115,12 @@ body {
   height: 7.6vw;
 }
 
-.box-numder-order {
+.box-number-order {
   right: auto;
   left: -8.55%;
 }
 
-.numder-article {
+.number-article {
   padding-top: 2.5vw;
 
   font-size: 1.25vw;
@@ -1128,7 +1128,7 @@ body {
 }
 
 /* Псевдоэлемент-подчеркивание номера статьи */
-.numder-article::after {
+.number-article::after {
   width: 1.44vw;
   height: 0.26vw;
   
